@@ -33,3 +33,5 @@ We train the model using Cross-Entropy Loss, ignoring <pad> tokens, and optimize
 For text generation, we provide a prompt (e.g., “the city”), tokenize it, and feed it into the trained model. The model predicts the next word’s probability distribution, from which we sample using temperature scaling (to control randomness) and top-k sampling (to limit unlikely words). This process repeats until an <eos> token appears or a maximum length is reached.
 
 The notebook also includes guidance on using pretrained GPT models from Hugging Face for higher-quality generation. GPT models, based on the Transformer architecture, can produce far more fluent and contextually rich paragraphs, especially when fine-tuned on specific topics.
+
+<img width="493" height="202" alt="Image" src="https://github.com/user-attachments/assets/f41f3866-fe2f-488b-a071-30a0028aed00" />
